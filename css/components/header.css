@@ -1,0 +1,39 @@
+.main-header {
+    height: 130px;
+    box-shadow: inset 0 -6px 0 #1e1e1e;
+    background-color: #292929;
+}
+
+.main-header .main-menu li {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main-menu li:first-of-type {
+    border-inline-start: 1px solid #1d1d1d;
+}
+
+.main-menu li {
+    border-inline-end: 1px solid #1d1d1d;
+    transition: .2s;
+}
+
+.main-header .main-menu li a {
+    color: white;
+    font-family: Lato-Bold;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+}
+
+.main-header .main-menu li:hover {
+    box-shadow: inset 0 -6px 0 var(--clr1);
+}
+
+
+.main-header .main-menu :hover a {
+    color: var(--clr1);
+}

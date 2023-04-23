@@ -1,0 +1,65 @@
+.card-title {
+    font-family: Lato-Regular, sans-serif;
+    text-transform: uppercase;
+    color: #4f4e4e;
+    margin-block-start: -0.1em;
+    line-height: 30px;
+    letter-spacing: 0.84px;
+    margin-inline-end: 57px;
+    font-size: 1.75em;
+    font-weight: 700;
+    margin-block-end: 58px;
+}
+
+.card-text {
+    font-family: Lato-Regular, sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 445px;
+}
+
+.card-text p:first-of-type {
+    margin-block-end: 20px;
+}
+
+.card-text p {
+    margin-block-end: 44px;
+    letter-spacing: 0.48px;
+}
+
+
+.btn-card {
+    font-family: Lato-Bold, sans-serif;
+    width: 186px;
+    height: 40px;
+    letter-spacing: 0.48px;
+    margin-block-end: 0;
+    padding-inline-start: 26px;
+    border: 2px solid #c2c2c2;
+    background-color: white;
+    color: #c2c1c1;
+    font-size: 1em;
+    border-radius: 20px;
+    text-align: left;
+    cursor: pointer;
+    /* transition: .2s ease-out; */
+}
+
+.btn-card:hover {
+    border: 2px solid var(--clr1);
+    color: var(--clr1);
+    width: 210px;
+}
+
+.btn-card::after {
+    content: '';
+    width: auto;
+    transition: .2s ease-out;
+    opacity: 0;
+}
+
+.btn-card:hover::after {
+    content: ' →';
+    transition: .2s ease-out;
+    opacity: 1;
+}

@@ -1,0 +1,41 @@
+.main-footer {
+    border-block-start: 1px solid #e1e0e0;
+    background-color: #f8f8f8;
+}
+
+.main-footer .logo-footer {
+    margin-block-start: 80px;
+    margin-block-end: 32px;
+}
+
+.main-footer small {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 0.8125em;
+    letter-spacing: 0.39px;
+    color: #a6a6a6;
+    margin-block-end: 38px;
+}
+
+.main-footer small span {
+    font-family: Lato-Bold, sans-serif;
+    color: #939292;
+}
+
+.social-links li {
+    width: 40px;
+    height: 40px;
+    background-color: #e5e5e5;
+    margin-inline: 10px;
+    padding: 13px;
+    margin-block-end: 80px;
+    transition: .2s ease-in-out;
+}
+
+.social-links i {
+    color: white;
+}
+
+.social-links li:hover {
+    background-color: #516fad;
+    cursor: pointer;
+}

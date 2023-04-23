@@ -1,0 +1,12 @@
+.paging-btns {
+    color: #818181;
+    font-family: Lato-Bold, sans-serif;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    border-block-start: 1px solid #e1e0e0;
+    padding: 30px;
+}
+
+.paging-btns a {
+    cursor: pointer;
+}

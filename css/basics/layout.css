@@ -1,0 +1,45 @@
+/* MAIN LAYOUT */
+
+.main-layout {
+    display: grid;
+    grid-template-columns:
+        minmax(20px, 1fr)
+        minmax(auto, 980px)
+        minmax(20px, 1fr);
+}
+
+.main-layout>*:not(.full) {
+    grid-column: 2;
+}
+
+.main-layout>.full {
+    grid-column: 1 / -1;
+}
+
+/* CARD LAYOUT */
+
+.card-layout {
+    display: grid;
+    grid-template-columns:
+        minmax(auto, 471px)
+        minmax(40px, 1fr)
+        minmax(auto, 471px);
+    row-gap: 80px;
+    padding-block-start: 80px;
+}
+
+.card-layout>*:nth-child(odd) {
+    grid-column: 1;
+}
+
+.card-layout>*:nth-child(even) {
+    grid-column: 3;
+}
+
+.card-layout>.paging-btns {
+    grid-column: 1 / -1;
+}
+
+.main-content {
+    border-inline: 1px solid #e1e0e0;
+}
